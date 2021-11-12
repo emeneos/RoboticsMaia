@@ -5,14 +5,20 @@
     <paramSection />
     <localSection />
     <source>
-      <code>begin
-  userPage()
-  cls()
-  popUpMsg("Beginning of the program")
-  mNomSpeed.vel=30
-end
-
-      </code>
+      <code>begin 
+  userPage() 
+  cls() 
+  putln("Inici del prog ama") 
+  mNomSpeed.vel=30 
+  movel(posicio2[0],eina0[0],mNomSpeed) 
+  close(eina0[0]) 
+  putln("Posicio 2a assolida. Element terminal tancat.") 
+  open(eina0) 
+  movej(posicio2[1],eina0[1],mNomSpeed) 
+  close(eina0[1]) 
+  putln("Posicio 2b assclida. Element terminal tancat.") 
+end 
+</code>
     </source>
   </program>
 </programList>

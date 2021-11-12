@@ -2,12 +2,12 @@
   "programs": [
     {
       "mode": 3,
-      "name": "start",
+      "name": "stop",
       "nodes": []
     },
     {
       "mode": 3,
-      "name": "stop",
+      "name": "start",
       "nodes": []
     }
   ]
