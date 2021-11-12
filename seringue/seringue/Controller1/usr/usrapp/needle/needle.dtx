@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataList xmlns="DataNameSpace">
+  <aioSection />
+  <boolSection />
+  <configRsSection />
+  <configSection />
+  <dioSection />
+  <frameSection>
+    <frame name="world" public="false">
+      <fFather alias="" name="" fatherIndex="0" />
+      <valueFrame index="0">
+        <tfValue x="0" y="0" z="0" rx="0" ry="0" rz="0" />
+      </valueFrame>
+    </frame>
+    <frame name="ourworld" public="false">
+      <fFather alias="" name="world" fatherIndex="0" />
+      <valueFrame index="0">
+        <tfValue x="551.047984" y="-252.320655" z="-330.578631" rx="-90.248349" ry="30.532563" rz="3.59277" />
+      </valueFrame>
+    </frame>
+  </frameSection>
+  <jointRsSection />
+  <jointSection />
+  <mdescSection>
+    <mdesc name="mNomSpeed" public="true">
+      <valueMdesc index="0">
+        <mdescValue accel="100" vel="100" decel="100" tmax="99999" rmax="99999" blend="off" leave="50" reach="50" />
+      </valueMdesc>
+    </mdesc>
+  </mdescSection>
+  <numSection />
+  <pointRsSection />
+  <pointSection>
+    <point name="calibration1" public="false">
+      <pFather alias="" name="world" fatherIndex="0" />
+      <valuePoint index="0">
+        <tpValue x="313.794757" y="-334.162084" z="-99.922033" rx="-147.8132" ry="44.706014" rz="89.021765" />
+        <cpValue shoulder="ssame" elbow="esame" wrist="wsame" />
+      </valuePoint>
+    </point>
+    <point name="calibration2" public="false">
+      <pFather alias="" name="world" fatherIndex="0" />
+      <valuePoint index="0">
+        <tpValue x="350.864208" y="-294.99772" z="-33.891868" rx="15.921138" ry="148.995266" rz="-68.476817" />
+        <cpValue shoulder="ssame" elbow="esame" wrist="wsame" />
+      </valuePoint>
+    </point>
+    <point name="calibration3" public="false">
+      <pFather alias="" name="world" fatherIndex="0" />
+      <valuePoint index="0">
+        <tpValue x="434.947299" y="22.777343" z="-200.451327" rx="-75.867305" ry="159.078364" rz="63.574856" />
+        <cpValue shoulder="ssame" elbow="esame" wrist="wsame" />
+      </valuePoint>
+    </point>
+    <point name="calibration4" public="false">
+      <pFather alias="" name="world" fatherIndex="0" />
+      <valuePoint index="0">
+        <tpValue x="460.27" y="-208.069934" z="33.384108" rx="-5.143703" ry="177.421027" rz="-54.044139" />
+        <cpValue shoulder="ssame" elbow="esame" wrist="wsame" />
+      </valuePoint>
+    </point>
+  </pointSection>
+  <sioSection />
+  <stringSection />
+  <toolSection>
+    <tool name="flange" public="false">
+      <tFather alias="" name="" fatherIndex="0" />
+      <valueTool index="0">
+        <ttValue x="0" y="0" z="0" rx="0" ry="0" rz="0" />
+        <io alias="io" name="valve1" ioIndex="0" open="0" close="0" />
+      </valueTool>
+    </tool>
+    <tool name="needle" public="false">
+      <tFather alias="" name="flange" fatherIndex="0" />
+      <valueTool index="0">
+        <ttValue x="61.56867" y="19.75013" z="191.55117" rx="-5.143703" ry="177.421027" rz="-54.044139" />
+        <io alias="io" name="valve1" ioIndex="0" open="0" close="0" />
+      </valueTool>
+    </tool>
+  </toolSection>
+  <trsfSection />
+</dataList>

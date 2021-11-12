@@ -1,0 +1,14 @@
+﻿{
+  "programs": [
+    {
+      "mode": 3,
+      "name": "start",
+      "nodes": []
+    },
+    {
+      "mode": 3,
+      "name": "stop",
+      "nodes": []
+    }
+  ]
+}
