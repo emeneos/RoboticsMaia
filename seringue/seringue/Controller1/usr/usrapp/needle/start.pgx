@@ -5,10 +5,29 @@
     <paramSection />
     <localSection />
     <source>
-      <code>begin 
+      <code>begin
   userPage() 
   cls() 
   putln("Inici del prog ama") 
+  
+  //go to home
+  //go to closerNeedle1 point (we do not go straight to needle1, just around the area)
+  //go to needle1 point
+  
+  
+  //go and pick needle
+  //move to closerArmPoint
+  //go to armpoint (this will touch the skin with the tip of the needle)
+  //injet: move Xmm at Y speed  - wait  5  seconds until liquid empty. Message: injecting
+  //eject: move -Xmm at y speed, going back to armpoint
+  //move back to closerArmPoint
+  //move to closerTrashPoin
+  //go to trashPoint
+  //open griper
+  //go to closerHome
+  //Go to Home
+  
+  //go and pick needle
   mNomSpeed.vel=30 
   movel(posicio2[0],eina0[0],mNomSpeed) 
   close(eina0[0]) 
@@ -17,7 +36,7 @@
   movej(posicio2[1],eina0[1],mNomSpeed) 
   close(eina0[1]) 
   putln("Posicio 2b assclida. Element terminal tancat.") 
-end 
+end
 </code>
     </source>
   </program>
