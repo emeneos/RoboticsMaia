@@ -18,8 +18,11 @@
   //go and pick needle
   //move to closerArmPoint
   //go to armpoint (this will touch the skin with the tip of the needle)
+  movel(apppro(armPoint[0]),eina0[0],mNomSpeed) 
   //injet: move Xmm at Y speed  - wait  5  seconds until liquid empty. Message: injecting
-  //eject: move -Xmm at y speed, going back to armpoint
+  movel(apppro(armPoint[0],[0,0,-50,0,0,0]),eina0[0],mNomSpeed)
+  //eject: going back to armpoint
+  movel(apppro(armPoint[0]),eina0[0],mNomSpeed) 
   //move back to closerArmPoint
   //move to closerTrashPoin
   //go to trashPoint
@@ -28,6 +31,9 @@
   //Go to Home
   
   //go and pick needle
+  
+
+  //TO DO : DEFINE MORE SPEEDS
   mNomSpeed.vel=30 
   movel(posicio2[0],eina0[0],mNomSpeed) 
   close(eina0[0]) 
