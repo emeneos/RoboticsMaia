@@ -6,6 +6,10 @@
     <localSection />
     <source>
       <code>begin
+  userPage() 
+  cls() 
+  putln("Beginning of the program")
+  
 end
 
       </code>
