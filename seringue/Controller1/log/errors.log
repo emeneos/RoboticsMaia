@@ -1,0 +1,162 @@
+﻿[11/26/21 16:45:51]: -----------------------------------------------
+[11/26/21 16:45:51]: Logger started
+[11/26/21 16:45:55]: Unknown event:Communication established
+[11/26/21 16:45:56]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/26/21 16:45:56]: Cycle time set to 0.004s
+[11/26/21 16:45:56]: Simulation cycle time set to 0.1s
+[11/26/21 16:45:56]: Controller IP address could not be updated
+[11/26/21 16:45:56]: STARC : No STARC board detected on PCI.
+[11/26/21 16:45:56]: Mcp = TSimulated
+[11/26/21 16:45:56]: Power shutdown delay set to 0 s
+[11/26/21 16:45:56]: Internal error MODBUS-StartServer Channel=0 Status=65534
+[11/26/21 16:45:56]: Power hour count = 0:00:00
+[11/26/21 16:45:56]: Mac Address = 0a-00-27-00-00-14
+[11/26/21 16:45:56]: Working mode:invalid.
+[11/26/21 16:45:56]: COM-PC: server created on all interfaces [5653]
+[11/26/21 16:45:56]: VAL3: s6.8 Feb  9 2010
+[11/26/21 16:45:56]: Option testMode: demo 
+[11/26/21 16:45:56]: Configuration Version: D24266415A 
+[11/26/21 16:45:56]: Machine Number: ? 
+[11/26/21 16:45:56]: Arm: tx60-S1-R3 floor
+[11/26/21 16:45:56]: Arm serial number: ? 
+[11/26/21 16:45:56]: EP: s6.8 Feb  3 2010
+[11/26/21 16:45:56]: SCA: s6.8 Feb  3 2010
+[11/26/21 16:45:56]: PLC: s6.8 Feb  3 2010
+[11/26/21 16:45:56]: New profile : default
+[11/26/21 16:45:56]: End of arm power shutdown phase.
+[11/26/21 16:45:57]: Working mode:manual.
+[11/26/21 16:45:57]: COM-PC: create session 127.0.0.1 on port 49816 id=#33908328
+[11/26/21 16:46:10]: COM-PC: destroy session 127.0.0.1 on port 49816 id=#33908328
+[11/26/21 16:47:02]: -----------------------------------------------
+[11/26/21 16:47:02]: Logger started
+[11/26/21 16:47:06]: Unknown event:Communication established
+[11/26/21 16:47:06]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/26/21 16:47:06]: Cycle time set to 0.004s
+[11/26/21 16:47:06]: Simulation cycle time set to 0.1s
+[11/26/21 16:47:06]: Controller IP address could not be updated
+[11/26/21 16:47:06]: STARC : No STARC board detected on PCI.
+[11/26/21 16:47:06]: Mcp = TSimulated
+[11/26/21 16:47:06]: Power shutdown delay set to 0 s
+[11/26/21 16:47:06]: Internal error MODBUS-StartServer Channel=0 Status=65534
+[11/26/21 16:47:06]: Power hour count = 0:00:00
+[11/26/21 16:47:06]: Mac Address = 0a-00-27-00-00-14
+[11/26/21 16:47:06]: COM-PC: server created on all interfaces [5653]
+[11/26/21 16:47:06]: Working mode:invalid.
+[11/26/21 16:47:06]: VAL3: s6.8 Feb  9 2010
+[11/26/21 16:47:06]: Option testMode: demo 
+[11/26/21 16:47:06]: Configuration Version: D24266415A 
+[11/26/21 16:47:06]: Machine Number: ? 
+[11/26/21 16:47:06]: Arm: tx60-S1-R3 floor
+[11/26/21 16:47:06]: Arm serial number: ? 
+[11/26/21 16:47:06]: EP: s6.8 Feb  3 2010
+[11/26/21 16:47:06]: SCA: s6.8 Feb  3 2010
+[11/26/21 16:47:06]: PLC: s6.8 Feb  3 2010
+[11/26/21 16:47:06]: New profile : default
+[11/26/21 16:47:07]: Working mode:manual.
+[11/26/21 16:47:07]: End of arm power shutdown phase.
+[11/26/21 16:47:50]: -----------------------------------------------
+[11/26/21 16:47:50]: Logger started
+[11/26/21 16:47:54]: Unknown event:Communication established
+[11/26/21 16:47:54]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/26/21 16:47:54]: Cycle time set to 0.004s
+[11/26/21 16:47:54]: Simulation cycle time set to 0.1s
+[11/26/21 16:47:54]: Controller IP address could not be updated
+[11/26/21 16:47:54]: STARC : No STARC board detected on PCI.
+[11/26/21 16:47:54]: Mcp = TSimulated
+[11/26/21 16:47:54]: Power shutdown delay set to 0 s
+[11/26/21 16:47:54]: Internal error MODBUS-StartServer Channel=0 Status=65534
+[11/26/21 16:47:54]: Power hour count = 0:00:00
+[11/26/21 16:47:54]: Mac Address = 0a-00-27-00-00-14
+[11/26/21 16:47:54]: COM-PC: server created on all interfaces [5653]
+[11/26/21 16:47:54]: VAL3: s6.8 Feb  9 2010
+[11/26/21 16:47:54]: Option testMode: demo 
+[11/26/21 16:47:54]: Configuration Version: D24266415A 
+[11/26/21 16:47:54]: Machine Number: ? 
+[11/26/21 16:47:54]: Arm: tx60-S1-R3 floor
+[11/26/21 16:47:54]: Arm serial number: ? 
+[11/26/21 16:47:54]: EP: s6.8 Feb  3 2010
+[11/26/21 16:47:54]: SCA: s6.8 Feb  3 2010
+[11/26/21 16:47:54]: PLC: s6.8 Feb  3 2010
+[11/26/21 16:47:54]: New profile : default
+[11/26/21 16:47:54]: Working mode:manual.
+[11/26/21 16:47:55]: End of arm power shutdown phase.
+[11/26/21 16:48:02]: -----------------------------------------------
+[11/26/21 16:48:02]: Logger started
+[11/26/21 16:48:06]: Unknown event:Communication established
+[11/26/21 16:48:06]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/26/21 16:48:06]: Cycle time set to 0.004s
+[11/26/21 16:48:06]: Simulation cycle time set to 0.1s
+[11/26/21 16:48:06]: Controller IP address could not be updated
+[11/26/21 16:48:06]: STARC : No STARC board detected on PCI.
+[11/26/21 16:48:06]: Mcp = TSimulated
+[11/26/21 16:48:06]: Power shutdown delay set to 0 s
+[11/26/21 16:48:06]: Internal error MODBUS-StartServer Channel=0 Status=65534
+[11/26/21 16:48:06]: Power hour count = 0:00:00
+[11/26/21 16:48:06]: Mac Address = 0a-00-27-00-00-14
+[11/26/21 16:48:06]: COM-PC: server created on all interfaces [5653]
+[11/26/21 16:48:06]: VAL3: s6.8 Feb  9 2010
+[11/26/21 16:48:06]: Option testMode: demo 
+[11/26/21 16:48:06]: Configuration Version: D24266415A 
+[11/26/21 16:48:06]: Machine Number: ? 
+[11/26/21 16:48:06]: Arm: tx60-S1-R3 floor
+[11/26/21 16:48:06]: Arm serial number: ? 
+[11/26/21 16:48:06]: EP: s6.8 Feb  3 2010
+[11/26/21 16:48:06]: SCA: s6.8 Feb  3 2010
+[11/26/21 16:48:06]: PLC: s6.8 Feb  3 2010
+[11/26/21 16:48:06]: New profile : default
+[11/26/21 16:48:06]: Working mode:manual.
+[11/26/21 16:48:07]: End of arm power shutdown phase.
+[11/26/21 16:48:23]: -----------------------------------------------
+[11/26/21 16:48:23]: Logger started
+[11/26/21 16:48:27]: Unknown event:Communication established
+[11/26/21 16:48:27]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/26/21 16:48:27]: Cycle time set to 0.004s
+[11/26/21 16:48:27]: Simulation cycle time set to 0.1s
+[11/26/21 16:48:27]: Controller IP address could not be updated
+[11/26/21 16:48:27]: STARC : No STARC board detected on PCI.
+[11/26/21 16:48:27]: Mcp = TSimulated
+[11/26/21 16:48:27]: Power shutdown delay set to 0 s
+[11/26/21 16:48:27]: Internal error MODBUS-StartServer Channel=0 Status=65534
+[11/26/21 16:48:27]: Power hour count = 0:00:00
+[11/26/21 16:48:27]: Mac Address = 0a-00-27-00-00-14
+[11/26/21 16:48:27]: COM-PC: server created on all interfaces [5653]
+[11/26/21 16:48:27]: VAL3: s6.8 Feb  9 2010
+[11/26/21 16:48:27]: Option testMode: demo 
+[11/26/21 16:48:27]: Configuration Version: D24266415A 
+[11/26/21 16:48:27]: Machine Number: ? 
+[11/26/21 16:48:27]: Arm: tx60-S1-R3 floor
+[11/26/21 16:48:27]: Arm serial number: ? 
+[11/26/21 16:48:27]: EP: s6.8 Feb  3 2010
+[11/26/21 16:48:27]: SCA: s6.8 Feb  3 2010
+[11/26/21 16:48:27]: PLC: s6.8 Feb  3 2010
+[11/26/21 16:48:27]: New profile : default
+[11/26/21 16:48:27]: Working mode:manual.
+[11/26/21 16:48:28]: End of arm power shutdown phase.
+[11/26/21 16:48:38]: COM-PC: create session 127.0.0.1 on port 49831 id=#34366976
+[11/26/21 16:48:46]: Working mode:test.
+[11/26/21 16:48:49]: Working mode:remote.
+[11/26/21 16:48:51]: Working mode:automatic.
+[11/26/21 16:48:53]: Working mode:manual.
+[11/26/21 16:48:54]: Settling arm power...
+[11/26/21 16:48:55]: Arm power settled.
+[11/26/21 16:48:55]: Unknown event:motion generator activated
+[11/26/21 16:48:58]: Manual motion mode:Joint
+[11/26/21 16:48:58]: Unknown event:motion generator desactivated
+[11/26/21 16:48:58]: Unknown event:motion generator activated
+[11/26/21 16:49:15]: Manual motion mode:Disabled
+[11/26/21 16:49:15]: Unknown event:motion generator desactivated
+[11/26/21 16:49:15]: Unknown event:motion generator activated
+[11/26/21 16:50:06]: needle application started
+[11/26/21 16:50:06]: Cannot complete move: destination is out of reach.(out of arm workspace)
+[11/26/21 16:50:06]: ERR 150 Robot stopped on a previous impossible movement (target out of reach, incorrect arm configuration, or singularity)
+[11/26/21 16:50:22]: needle application stopped
+[11/26/21 16:50:39]: Manual motion mode:Point
+[11/26/21 16:50:39]: Unknown event:motion generator desactivated
+[11/26/21 16:50:39]: Unknown event:motion generator activated
+[11/26/21 16:51:51]: Joint  homepoint2  taught
+[11/26/21 16:55:01]: Manual motion mode:Disabled
+[11/26/21 16:55:01]: Unknown event:motion generator desactivated
+[11/26/21 16:55:01]: Unknown event:motion generator activated
+[11/26/21 16:55:34]: Manual motion mode:Point
+[11/26/21 16:55:34]: Unknown event:motion generator desactivated
+[11/26/21 16:55:34]: Unknown event:motion generator activated

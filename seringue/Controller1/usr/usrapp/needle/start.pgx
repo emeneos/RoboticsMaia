@@ -67,12 +67,11 @@
   movej(appro(armPoint,{0,0,-25.5,0,0,0}),needle,gentleVelocity)
   waitEndMove()
   movel(armPoint,needle,gentleVelocity)
-  slowVelocity=5
   waitEndMove()
   
   
   //inject: move Xmm at Y speed  - wait  5  seconds until liquid empty. Message: injecting
-  movej(appro(armPoint,{0,0,-25.5,0,0,0},needle,slowVelocity)
+  movej(appro(armPoint,{0,0,-25.5,0,0,0}),needle,slowVelocity)
   waitEndMove()
   needle.otime= 4 
   //waiting until injection is applied
@@ -124,19 +123,6 @@
   
   //HERE START THE SECOND PHASE FOR INJECTIONS
   //go and pick needle
-  
-
-  //TO DO : DEFINE MORE SPEEDS
-  mNomSpeed.vel=30 
-  movel(posicio2[0],eina0[0],mNomSpeed) 
-  close(eina0[0]) 
-  putln("Posicio 2a assolida. Element terminal tancat.") 
-  open(eina0) 
-  movej(posicio2[1],eina0[1],mNomSpeed) 
-  close(eina0[1]) 
-  putln("Posicio 2b assclida. Element terminal tancat.") 
-  
-  
   
 end
 

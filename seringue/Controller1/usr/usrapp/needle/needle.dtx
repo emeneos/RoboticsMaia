@@ -27,6 +27,21 @@
         <mdescValue accel="100" vel="100" decel="100" tmax="99999" rmax="99999" blend="off" leave="50" reach="50" />
       </valueMdesc>
     </mdesc>
+    <mdesc name="slowVelocity" public="false">
+      <valueMdesc index="0">
+        <mdescValue accel="100" vel="5" decel="100" tmax="99999" rmax="99999" blend="off" leave="50" reach="50" />
+      </valueMdesc>
+    </mdesc>
+    <mdesc name="normalVelocity" public="false">
+      <valueMdesc index="0">
+        <mdescValue accel="100" vel="100" decel="100" tmax="99999" rmax="99999" blend="off" leave="50" reach="50" />
+      </valueMdesc>
+    </mdesc>
+    <mdesc name="gentleVelocity" public="false">
+      <valueMdesc index="0">
+        <mdescValue accel="100" vel="10" decel="100" tmax="99999" rmax="99999" blend="off" leave="50" reach="50" />
+      </valueMdesc>
+    </mdesc>
   </mdescSection>
   <numSection />
   <pointRsSection />
@@ -129,6 +144,10 @@
     <tool name="needle" public="false">
       <tFather alias="" name="flange" fatherIndex="0" />
       <valueTool index="0">
+        <ttValue x="-30" y="-30" z="191.55117" rx="0" ry="0" rz="-134" />
+        <io alias="io" name="valve1" ioIndex="0" open="0" close="0" />
+      </valueTool>
+      <valueTool index="1">
         <ttValue x="61.56867" y="19.75013" z="191.55117" rx="-5.143703" ry="177.421027" rz="-54.044139" />
         <io alias="io" name="valve1" ioIndex="0" open="0" close="0" />
       </valueTool>
