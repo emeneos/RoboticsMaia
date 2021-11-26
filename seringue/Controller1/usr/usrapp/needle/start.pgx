@@ -9,6 +9,81 @@
   userPage() 
   cls() 
   putln("Beginning of the program")
+   
+  //go to home
+  mNomSpeed.vel=30 
+  movel(appro(homePoint[0]),needle[0],mNomSpeed) 
+  waitEndMove()
+  
+  
+  //go to closerNeedle1 point (we do not go straight to needle1, just around the area)
+  movej(appro(needlePoint1),needle[0],mNomSpeed)
+  movej(needlePoint1,needle[0],mNomSpeed)
+  waitEndMove()
+  popUpMsg("Picking needle")
+  putln("Picking needle")
+  
+  
+  //open gripper and wait until we command
+  needle.gripper= true
+  needle.otime=12
+  delay(needle.otime)
+  popUpMsg("Grabbing needle")
+  putln("Grabbing needle")
+  needle.gripper= false 
+  needle.otime=4
+  delay(needle.otime)
+  popUpMsg("Needle has been grabbed")
+  putln("Needle has been grabbed")
+  
+  
+  //move to closerArmPoint
+  
+  popUpMsg("Moving near arm position")
+  putln("Moving near arm position")
+  gentleVelocity=10
+  movej(appro(closerArmPoint),needle[0],gentleVelocity)
+  slowVelocity=5
+  waitEndMove()
+  
+  //go to armpoint (this will touch the skin with the tip of the needle)
+  movej(closerArmPoint,needle[0],slowVelocity)
+  waitEndMove()
+  
+  
+  //inject: move Xmm at Y speed  - wait  5  seconds until liquid empty. Message: injecting
+  movel(appro(armPoint[0],[0,0,-25.5,0,0,0],needle[0],slowVelocity)
+  
+  
+  
+  
+  
+  
+  
+  
+  //eject: going back to armpoint
+  movel(appro(armPoint[0]),eina0[0],mNomSpeed) 
+  //move back to closerArmPoint
+  //move to closerTrashPoin
+  //go to trashPoint
+  //open griper
+  //go to closerHome
+  //Go to Home
+  
+  //go and pick needle
+  
+
+  //TO DO : DEFINE MORE SPEEDS
+  mNomSpeed.vel=30 
+  movel(posicio2[0],eina0[0],mNomSpeed) 
+  close(eina0[0]) 
+  putln("Posicio 2a assolida. Element terminal tancat.") 
+  open(eina0) 
+  movej(posicio2[1],eina0[1],mNomSpeed) 
+  close(eina0[1]) 
+  putln("Posicio 2b assclida. Element terminal tancat.") 
+  
+  
   
 end
 
