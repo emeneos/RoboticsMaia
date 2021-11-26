@@ -13,7 +13,7 @@
    
   //go to home
   mNomSpeed.vel=30 
-  movej(appro(homePoint,{0,0,-25.5,0,0,0}),needle,mNomSpeed) 
+  movej(appro(homePoint,{0,0,-25.5,0,0,0}),needle[0],mNomSpeed) 
   waitEndMove()
   movel(homePoint,needle[0],mNomSpeed)
   waitEndMove()
@@ -21,9 +21,9 @@
   
   
   //go to closerNeedle1 point (we do not go straight to needle1, just around the area)
-  movej(appro(needlePoint1,{0,0,-25.5,0,0,0}),needle,mNomSpeed)
+  movej(appro(needlePoint1,{0,0,-25.5,0,0,0}),needle[0],mNomSpeed)
   waitEndMove()
-  movel(needlePoint1,needle,mNomSpeed)
+  movel(needlePoint1,needle[0],mNomSpeed)
   waitEndMove()
   popUpMsg("Picking needle")
   putln("Picking needle")
@@ -45,7 +45,7 @@
   
   //go to home
   mNomSpeed.vel=30 
-  movej(appro(homePoint,{0,0,-25.5,0,0,0}),needle,mNomSpeed) 
+  movej(appro(homePoint,{0,0,-25.5,0,0,0}),needle[0],mNomSpeed) 
   waitEndMove()
   //go to closer home
   movel(homePoint,needle[0],mNomSpeed)
@@ -57,21 +57,21 @@
   popUpMsg("Moving near arm position")
   putln("Moving near arm position")
 
-  movej(appro(closerArmPoint,{0,0,-25.5,0,0,0}),needle,gentleVelocity)
+  movej(appro(closerArmPoint,{0,0,-25.5,0,0,0}),needle[0],gentleVelocity)
   waitEndMove()
-  movel(closerArmPoint,needle,gentleVelocity)
+  movel(closerArmPoint,needle[0],gentleVelocity)
 
   waitEndMove()
   
   //go to armpoint (this will touch the skin with the tip of the needle)
-  movej(appro(armPoint,{0,0,-25.5,0,0,0}),needle,gentleVelocity)
+  movej(appro(armPoint,{0,0,-25.5,0,0,0}),needle[0],gentleVelocity)
   waitEndMove()
-  movel(armPoint,needle,gentleVelocity)
+  movel(armPoint,needle[0],gentleVelocity)
   waitEndMove()
   
   
   //inject: move Xmm at Y speed  - wait  5  seconds until liquid empty. Message: injecting
-  movej(appro(armPoint,{0,0,-25.5,0,0,0}),needle,slowVelocity)
+  movej(appro(armPoint,{0,0,-25.5,0,0,0}),needle[0],slowVelocity)
   waitEndMove()
   needle.otime= 4 
   //waiting until injection is applied
@@ -79,21 +79,21 @@
 
   
   //eject: going back to closerArmPoint
-  movel(closerArmPoint,needle,gentleVelocity)
+  movel(closerArmPoint,needle[0],gentleVelocity)
   waitEndMove() 
 
 
   //move to closerTrashPoin
-  movej(appro(closerTrashPoin,{0,0,-25.5,0,0,0}),needle,mNomSpeed)
+  movej(appro(closerTrashPoin,{0,0,-25.5,0,0,0}),needle[0],mNomSpeed)
   waitEndMove()
-  movel(closerTrashPoin,needle,gentleVelocity)
+  movel(closerTrashPoin,needle[0],gentleVelocity)
   waitEndMove()
   
 
   //go to trashPoint
-  movej(appro(trashPoint,{0,0,-25.5,0,0,0}),needle,mNomSpeed)
+  movej(appro(trashPoint,{0,0,-25.5,0,0,0}),needle[0],mNomSpeed)
   waitEndMove()
-  movel(trashPoint,needle,gentleVelocity)
+  movel(trashPoint,needle[0],gentleVelocity)
   waitEndMove()
   
   //open gripper and wait until we command
@@ -111,7 +111,7 @@
   
   //go to home
   mNomSpeed.vel=30 
-  movej(appro(homePoint,{0,0,-25.5,0,0,0}),needle,mNomSpeed) 
+  movej(appro(homePoint,{0,0,-25.5,0,0,0}),needle[0],mNomSpeed) 
   waitEndMove()
   //go to closer home
   movel(homePoint,needle[0],mNomSpeed)
