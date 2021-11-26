@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <programList xmlns="ProgramNameSpace">
-  <program name="stop" public="false">
+  <program name="start" public="false">
     <description />
     <paramSection />
     <localSection />
     <source>
       <code>begin
-  popUpMsg("Pending movement commands have been canceled")
-  resetMotion()
+  userPage() 
+  cls() 
+  putln("Beginning of the program")
+  
 end
 
       </code>

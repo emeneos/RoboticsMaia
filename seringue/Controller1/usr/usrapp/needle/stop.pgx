@@ -1,15 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <programList xmlns="ProgramNameSpace">
-  <program name="start" public="false">
+  <program name="stop" public="false">
     <description />
     <paramSection />
     <localSection />
     <source>
       <code>begin
-  userPage()
-  cls()
-  popUpMsg("Beginning of the program")
-  mNomSpeed.vel=30
 end
 
       </code>
