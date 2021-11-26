@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<project xmlns="ProjectNameSpace">
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project xmlns="ProjectNameSpace" >
   <parameters version="s6.8" stackSize="5000" millimeterUnit="true" />
   <programSection>
     <program file="start.pgx" />
@@ -9,6 +9,6 @@
     <data file="needle.dtx" />
   </dataSection>
   <aliasSection>
-    <alias name="io" interface="io" autoload="true" />
+    <alias name="io" interface="io" autoload="true" password="" />
   </aliasSection>
 </project>
