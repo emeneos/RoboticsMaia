@@ -10,6 +10,7 @@
   cls() 
   putln("Beginning of the program")
    
+   
   //go to home
   mNomSpeed.vel=30 
   movej(appro(homePoint,{0,0,-25.5,0,0,0}),needle,mNomSpeed) 
@@ -55,11 +56,11 @@
   
   popUpMsg("Moving near arm position")
   putln("Moving near arm position")
-  gentleVelocity=10
+
   movej(appro(closerArmPoint,{0,0,-25.5,0,0,0}),needle,gentleVelocity)
   waitEndMove()
   movel(closerArmPoint,needle,gentleVelocity)
-  slowVelocity=5
+
   waitEndMove()
   
   //go to armpoint (this will touch the skin with the tip of the needle)
