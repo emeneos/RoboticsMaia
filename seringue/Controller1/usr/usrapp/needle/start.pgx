@@ -1,66 +1,70 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<programList xmlns="ProgramNameSpace" >
-  <program name="start" public="false" >
+﻿<?xml version="1.0" encoding="utf-8"?>
+<programList xmlns="ProgramNameSpace">
+  <program name="start" public="false">
     <description />
-    <paramSection/>
-    <localSection/>
+    <paramSection />
+    <localSection />
     <source>
       <code>begin
   userPage()
   cls()
-  putln(&quot;Beginning of the program&quot;)
+  putln("Beginning of the program")
   //go to home
   mNomSpeed.vel=30
-  //
-  //
-  movej(homen,needle[0],mNomSpeed)
+  movej(homen[0],needle[0],mNomSpeed)
   waitEndMove()
   //go to closerNeedle1 point (we do not go straight to needle1, just around the area)
   movej(appro(needlePoint1,{0,0,-25.5,0,0,0}),needle[0],mNomSpeed)
   waitEndMove()
   movel(needlePoint1,needle[0],mNomSpeed)
   waitEndMove()
-  popUpMsg(&quot;Picking needle&quot;)
-  putln(&quot;Picking needle&quot;)
+  popUpMsg("Picking needle")
+  putln("Picking needle")
   //open gripper and wait until we command
   needle.gripper=true
   needle.otime=12
   delay(needle.otime)
-  popUpMsg(&quot;Grabbing needle&quot;)
-  putln(&quot;Grabbing needle&quot;)
+  popUpMsg("Grabbing needle")
+  putln("Grabbing needle")
   //closing gripper
   needle.gripper=false
   needle.otime=4
   delay(needle.otime)
-  popUpMsg(&quot;Needle has been grabbed&quot;)
-  putln(&quot;Needle has been grabbed&quot;)
+  popUpMsg("Needle has been grabbed")
+  putln("Needle has been grabbed")
   //go to home
   mNomSpeed.vel=30
-  movej(appro(homePoint,{0,0,25.5,0,0,0}),needle[0],mNomSpeed)
+  movej(appro(homePoint,{0,0,-25.5,0,0,0}),needle[0],mNomSpeed)
   waitEndMove()
   //go to closer home
   movel(homePoint,needle[0],mNomSpeed)
   waitEndMove()
   //move to closerArmPoint
-  popUpMsg(&quot;Moving near arm position&quot;)
-  putln(&quot;Moving near arm position&quot;)
-  movej(appro(closerArmPoint,{0,0,-25.5,0,0,0}),needle[0],gentleVelocity)
-  waitEndMove()
+  popUpMsg("Moving near arm position")
+  putln("Moving near arm position")
   movel(closerArmPoint,needle[0],gentleVelocity)
   waitEndMove()
+  
+  
   //go to armpoint (this will touch the skin with the tip of the needle)
   movej(appro(armPoint,{0,0,-25.5,0,0,0}),needle[0],gentleVelocity)
-  waitEndMove()
   movel(armPoint,needle[0],gentleVelocity)
-  waitEndMove()
+  
+  
   //inject: move Xmm at Y speed  - wait  5  seconds until liquid empty. Message: injecting
-  movej(appro(armPoint,{0,0,-25.5,0,0,0}),needle[0],slowVelocity)
+  movel(appro(armPoint,{0,0,25.5,0,0,0}),needle[0],slowVelocity)
   waitEndMove()
   needle.otime=4
+  
+  
   //waiting until injection is applied
   delay(needle.otime)
+  
+  movel(armPoint,needle[0],gentleVelocity)
+  movej(appro(armPoint,{0,0,-25.5,0,0,0}),needle[0],gentleVelocity)
+  movej(closerArmPoint,needle[0],gentleVelocity)
   //eject: going back to closerArmPoint
-  movel(closerArmPoint,needle[0],gentleVelocity)
+  //movel(closerArmPoint,needle[0],gentleVelocity)
   waitEndMove()
   //move to closerTrashPoin
   movej(appro(closerTrashPoin,{0,0,-25.5,0,0,0}),needle[0],mNomSpeed)
@@ -76,14 +80,14 @@
   needle.gripper=true
   needle.otime=12
   delay(needle.otime)
-  popUpMsg(&quot;Discarding needle&quot;)
-  putln(&quot;Discarding needle&quot;)
+  popUpMsg("Discarding needle")
+  putln("Discarding needle")
   //closing gripper
   needle.gripper=false
   needle.otime=4
   delay(needle.otime)
-  popUpMsg(&quot;Needle has been Discarded&quot;)
-  putln(&quot;Needle has been Discarded&quot;)
+  popUpMsg("Needle has been Discarded")
+  putln("Needle has been Discarded")
   //go to home
   mNomSpeed.vel=30
   movej(appro(homePoint,{0,0,-25.5,0,0,0}),needle[0],mNomSpeed)

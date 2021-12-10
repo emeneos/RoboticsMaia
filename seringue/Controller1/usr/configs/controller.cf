@@ -1,3 +1,3 @@
-initWorkingMode = manual
-powerHourCount = 1.499413
+initWorkingMode = test
+powerHourCount = 0
 monitorSpeed = 100
