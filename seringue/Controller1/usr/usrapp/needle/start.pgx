@@ -11,9 +11,9 @@
   putln(&quot;Beginning of the program&quot;)
   //go to home
   mNomSpeed.vel=30
-  movej(appro(homePoint,{0,0,25.5,0,0,0}),needle[0],mNomSpeed)
-  waitEndMove()
-  movel(homePoint,needle[0],mNomSpeed)
+  //
+  //
+  movej(homen,needle[0],mNomSpeed)
   waitEndMove()
   //go to closerNeedle1 point (we do not go straight to needle1, just around the area)
   movej(appro(needlePoint1,{0,0,-25.5,0,0,0}),needle[0],mNomSpeed)
@@ -44,17 +44,17 @@
   //move to closerArmPoint
   popUpMsg(&quot;Moving near arm position&quot;)
   putln(&quot;Moving near arm position&quot;)
-  movej(appro(closerArmPoint,{0,0,25.5,0,0,0}),needle[0],gentleVelocity)
+  movej(appro(closerArmPoint,{0,0,-25.5,0,0,0}),needle[0],gentleVelocity)
   waitEndMove()
   movel(closerArmPoint,needle[0],gentleVelocity)
   waitEndMove()
   //go to armpoint (this will touch the skin with the tip of the needle)
-  movej(appro(armPoint,{0,0,25.5,0,0,0}),needle[0],gentleVelocity)
+  movej(appro(armPoint,{0,0,-25.5,0,0,0}),needle[0],gentleVelocity)
   waitEndMove()
   movel(armPoint,needle[0],gentleVelocity)
   waitEndMove()
   //inject: move Xmm at Y speed  - wait  5  seconds until liquid empty. Message: injecting
-  movej(appro(armPoint,{0,0,25.5,0,0,0}),needle[0],slowVelocity)
+  movej(appro(armPoint,{0,0,-25.5,0,0,0}),needle[0],slowVelocity)
   waitEndMove()
   needle.otime=4
   //waiting until injection is applied
@@ -86,7 +86,7 @@
   putln(&quot;Needle has been Discarded&quot;)
   //go to home
   mNomSpeed.vel=30
-  movej(appro(homePoint,{0,0,25.5,0,0,0}),needle[0],mNomSpeed)
+  movej(appro(homePoint,{0,0,-25.5,0,0,0}),needle[0],mNomSpeed)
   waitEndMove()
   //go to closer home
   movel(homePoint,needle[0],mNomSpeed)

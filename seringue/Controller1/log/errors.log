@@ -164,3 +164,47 @@
 [11/26/21 17:18:48]: Controller temperature: 28°C
 [11/26/21 17:18:48]: CPU temperature: 28°C
 [11/26/21 17:48:50]: Saving controller context...
+[12/10/21 15:55:09]: -----------------------------------------------
+[12/10/21 15:55:09]: Logger started
+[12/10/21 15:55:13]: Unknown event:Communication established
+[12/10/21 15:55:14]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[12/10/21 15:55:14]: Cycle time set to 0.004s
+[12/10/21 15:55:14]: Simulation cycle time set to 0.1s
+[12/10/21 15:55:14]: Controller IP address could not be updated
+[12/10/21 15:55:14]: STARC : No STARC board detected on PCI.
+[12/10/21 15:55:14]: Mcp = TSimulated
+[12/10/21 15:55:14]: Power shutdown delay set to 0 s
+[12/10/21 15:55:14]: Internal error MODBUS-StartServer Channel=0 Status=65534
+[12/10/21 15:55:14]: Power hour count = 0:00:00
+[12/10/21 15:55:14]: Mac Address = 0a-00-27-00-00-14
+[12/10/21 15:55:14]: Working mode:invalid.
+[12/10/21 15:55:14]: COM-PC: server created on all interfaces [5653]
+[12/10/21 15:55:14]: VAL3: s6.8 Feb  9 2010
+[12/10/21 15:55:14]: Option testMode: demo 
+[12/10/21 15:55:14]: Configuration Version: D24266415A 
+[12/10/21 15:55:14]: Machine Number: ? 
+[12/10/21 15:55:14]: Arm: tx60-S1-R3 floor
+[12/10/21 15:55:14]: Arm serial number: ? 
+[12/10/21 15:55:14]: EP: s6.8 Feb  3 2010
+[12/10/21 15:55:14]: SCA: s6.8 Feb  3 2010
+[12/10/21 15:55:14]: PLC: s6.8 Feb  3 2010
+[12/10/21 15:55:14]: New profile : default
+[12/10/21 15:55:14]: End of arm power shutdown phase.
+[12/10/21 15:55:14]: Working mode:manual.
+[12/10/21 15:55:50]: COM-PC: create session 127.0.0.1 on port 49711 id=#9332640
+[12/10/21 15:56:04]: COM-PC: destroy session 127.0.0.1 on port 49711 id=#9332640
+[12/10/21 15:59:38]: COM-PC: create session 127.0.0.1 on port 49727 id=#9332432
+[12/10/21 16:00:06]: needle application started
+[12/10/21 16:00:18]: Settling arm power...
+[12/10/21 16:00:18]: Arm power settled.
+[12/10/21 16:00:19]: Unknown event:motion generator activated
+[12/10/21 16:05:32]: Manual motion mode:Point
+[12/10/21 16:05:32]: Unknown event:motion generator desactivated
+[12/10/21 16:05:32]: Unknown event:motion generator activated
+[12/10/21 16:05:52]: Manual motion mode:Disabled
+[12/10/21 16:05:52]: Unknown event:motion generator desactivated
+[12/10/21 16:05:52]: Unknown event:motion generator activated
+[12/10/21 16:07:06]: MCP communication disconnected
+[12/10/21 16:07:06]: Arm power shutdown: working mode change.
+[12/10/21 16:07:06]: Arm power shutdown...
+[12/10/21 16:07:06]: Unknown event:motion generator desactivated
