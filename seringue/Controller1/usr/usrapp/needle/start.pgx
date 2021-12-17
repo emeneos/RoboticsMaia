@@ -110,7 +110,9 @@
   popUpMsg("Needle has been Discarded")
   putln("Needle has been Discarded")
   
-  
+  movej(homen,needle[0],mNomSpeed)
+  popUpMsg("going home")
+  putln("going home")
 end
 
       </code>
