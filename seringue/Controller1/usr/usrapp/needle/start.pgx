@@ -24,14 +24,14 @@
   putln("Picking needle")
   //open gripper and wait until we command
   needle.gripper=true
-  needle.otime=5
-  //delay(needle.otime)
+  otime=5
+  delay(otime)
   popUpMsg("Grabbing needle")
   putln("Grabbing needle")
   //closing gripper
   needle.gripper=false
   needle.otime=5
-  //delay(needle.otime)
+  delay(otime)
   popUpMsg("Needle has been grabbed")
   putln("Needle has been grabbed")
   //go to home
