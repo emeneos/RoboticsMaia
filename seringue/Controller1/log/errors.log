@@ -208,3 +208,104 @@
 [12/10/21 16:07:06]: Arm power shutdown: working mode change.
 [12/10/21 16:07:06]: Arm power shutdown...
 [12/10/21 16:07:06]: Unknown event:motion generator desactivated
+[12/17/21 15:11:35]: -----------------------------------------------
+[12/17/21 15:11:35]: Logger started
+[12/17/21 15:11:40]: Unknown event:Communication established
+[12/17/21 15:11:41]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[12/17/21 15:11:41]: Cycle time set to 0.004s
+[12/17/21 15:11:41]: Simulation cycle time set to 0.1s
+[12/17/21 15:11:41]: Controller IP address could not be updated
+[12/17/21 15:11:41]: STARC : No STARC board detected on PCI.
+[12/17/21 15:11:41]: Mcp = TSimulated
+[12/17/21 15:11:41]: Power shutdown delay set to 0 s
+[12/17/21 15:11:41]: Internal error MODBUS-StartServer Channel=0 Status=65534
+[12/17/21 15:11:41]: Power hour count = 0:00:00
+[12/17/21 15:11:41]: Mac Address = 0a-00-27-00-00-14
+[12/17/21 15:11:41]: Working mode:invalid.
+[12/17/21 15:11:41]: COM-PC: server created on all interfaces [5653]
+[12/17/21 15:11:41]: End of arm power shutdown phase.
+[12/17/21 15:11:41]: VAL3: s6.8 Feb  9 2010
+[12/17/21 15:11:41]: Option testMode: demo 
+[12/17/21 15:11:41]: Configuration Version: D24266415A 
+[12/17/21 15:11:41]: Machine Number: ? 
+[12/17/21 15:11:41]: Arm: tx60-S1-R3 floor
+[12/17/21 15:11:41]: Arm serial number: ? 
+[12/17/21 15:11:41]: EP: s6.8 Feb  3 2010
+[12/17/21 15:11:41]: SCA: s6.8 Feb  3 2010
+[12/17/21 15:11:41]: PLC: s6.8 Feb  3 2010
+[12/17/21 15:11:41]: New profile : default
+[12/17/21 15:11:42]: Working mode:test.
+[12/17/21 15:22:03]: COM-PC: create session 127.0.0.1 on port 49599 id=#34105248
+[12/17/21 15:22:15]: COM-PC: destroy session 127.0.0.1 on port 49599 id=#34105248
+[12/17/21 15:22:30]: Jog mode cannot be selected: first enable arm power.
+[12/17/21 15:22:35]: Settling arm power...
+[12/17/21 15:22:36]: Arm power settled.
+[12/17/21 15:22:36]: Unknown event:motion generator activated
+[12/17/21 15:22:43]: needle application started
+[12/17/21 15:23:19]: COM-PC: create session 127.0.0.1 on port 49606 id=#34104832
+[12/17/21 15:23:20]: COM-PC: destroy session 127.0.0.1 on port 49606 id=#34104832
+[12/17/21 15:23:20]: COM-PC: create session 127.0.0.1 on port 49607 id=#34105664
+[12/17/21 15:23:35]: COM-PC: destroy session 127.0.0.1 on port 49607 id=#34105664
+[12/17/21 15:23:53]: COM-PC: create session 127.0.0.1 on port 49611 id=#34104624
+[12/17/21 15:23:53]: COM-PC: destroy session 127.0.0.1 on port 49611 id=#34104624
+[12/17/21 15:23:53]: COM-PC: create session 127.0.0.1 on port 49612 id=#34104624
+[12/17/21 15:24:15]: COM-PC: destroy session 127.0.0.1 on port 49612 id=#34104624
+[12/17/21 15:24:30]: COM-PC: create session 127.0.0.1 on port 49618 id=#34105768
+[12/17/21 15:24:30]: COM-PC: destroy session 127.0.0.1 on port 49618 id=#34105768
+[12/17/21 15:24:30]: COM-PC: create session 127.0.0.1 on port 49618 id=#34105664
+[12/17/21 15:24:32]: COM-PC: destroy session 127.0.0.1 on port 49618 id=#34105664
+[12/17/21 15:24:32]: COM-PC: create session 127.0.0.1 on port 49621 id=#34105664
+[12/17/21 15:24:44]: needle application stopped
+[12/17/21 15:25:03]: needle application started
+[12/17/21 15:26:00]: needle application stopped
+[12/17/21 15:26:06]: needle application started
+[12/17/21 15:26:44]: needle application stopped
+[12/17/21 15:27:10]: needle application started
+[12/17/21 15:27:55]: COM-PC: destroy session 127.0.0.1 on port 49621 id=#34105664
+[12/17/21 15:27:55]: COM-PC: create session 127.0.0.1 on port 49627 id=#34105664
+[12/17/21 15:28:52]: needle application stopped
+[12/17/21 15:29:11]: needle application started
+[12/17/21 15:30:48]: needle application stopped
+[12/17/21 15:31:01]: needle application started
+[12/17/21 15:31:49]: needle application stopped
+[12/17/21 15:31:57]: needle application started
+[12/17/21 15:33:25]: needle application stopped
+[12/17/21 15:33:40]: needle application started
+[12/17/21 15:36:01]: needle application stopped
+[12/17/21 15:36:09]: (File start.pgx-line 61) 'ArmPoint' : invalid name
+[12/17/21 15:37:08]: needle application started
+[12/17/21 15:38:10]: needle application stopped
+[12/17/21 15:38:25]: needle application started
+[12/17/21 15:39:36]: needle application stopped
+[12/17/21 15:39:45]: needle application started
+[12/17/21 15:40:51]: needle application stopped
+[12/17/21 15:40:58]: needle application started
+[12/17/21 15:43:50]: needle application stopped
+[12/17/21 15:44:03]: needle application started
+[12/17/21 15:45:03]: needle application stopped
+[12/17/21 15:45:58]: needle application started
+[12/17/21 15:46:16]: needle application stopped
+[12/17/21 15:47:21]: needle application started
+[12/17/21 15:47:37]: needle application stopped
+[12/17/21 15:48:43]: needle application started
+[12/17/21 15:49:05]: needle application stopped
+[12/17/21 15:49:38]: needle application started
+[12/17/21 15:49:54]: ERR 154 Invalid movement command: invalid destination point or mdesc.
+[12/17/21 15:50:18]: needle application stopped
+[12/17/21 15:50:40]: needle application started
+[12/17/21 15:50:56]: needle application stopped
+[12/17/21 15:52:37]: Saving controller context...
+[12/17/21 15:52:37]: Controller temperature: 28°C
+[12/17/21 15:52:37]: CPU temperature: 28°C
+[12/17/21 15:52:43]: needle application started
+[12/17/21 15:53:08]: needle application stopped
+[12/17/21 15:54:31]: needle application started
+[12/17/21 15:54:55]: needle application stopped
+[12/17/21 15:57:04]: needle application started
+[12/17/21 15:57:28]: needle application stopped
+[12/17/21 15:58:30]: needle application started
+[12/17/21 15:58:55]: needle application stopped
+[12/17/21 16:03:32]: needle application started
+[12/17/21 16:04:19]: needle application stopped
+[12/17/21 16:05:35]: needle application started
+[12/17/21 16:06:29]: needle application stopped

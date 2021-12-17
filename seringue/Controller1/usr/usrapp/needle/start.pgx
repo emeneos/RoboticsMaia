@@ -11,7 +11,9 @@
   putln("Beginning of the program")
   //go to home
   mNomSpeed.vel=30
-  movej(homen[0],needle[0],mNomSpeed)
+  otime=4
+
+  movej(homen,needle[0],mNomSpeed)
   waitEndMove()
   //go to closerNeedle1 point (we do not go straight to needle1, just around the area)
   movej(appro(needlePoint1,{0,0,-25.5,0,0,0}),needle[0],mNomSpeed)
@@ -23,80 +25,92 @@
   //open gripper and wait until we command
   needle.gripper=true
   needle.otime=12
-  delay(needle.otime)
+  //delay(needle.otime)
   popUpMsg("Grabbing needle")
   putln("Grabbing needle")
   //closing gripper
   needle.gripper=false
   needle.otime=4
-  delay(needle.otime)
+  //delay(needle.otime)
   popUpMsg("Needle has been grabbed")
   putln("Needle has been grabbed")
   //go to home
   mNomSpeed.vel=30
-  movej(appro(homePoint,{0,0,-25.5,0,0,0}),needle[0],mNomSpeed)
+  movej(appro(homePoint,{0,0,25.5,0,0,0}),needle[0],mNomSpeed)
   waitEndMove()
   //go to closer home
   movel(homePoint,needle[0],mNomSpeed)
   waitEndMove()
-  //move to closerArmPoint
-  popUpMsg("Moving near arm position")
-  putln("Moving near arm position")
-  movel(closerArmPoint,needle[0],gentleVelocity)
-  waitEndMove()
-  
-  
-  //go to armpoint (this will touch the skin with the tip of the needle)
+
   movej(appro(armPoint,{0,0,-25.5,0,0,0}),needle[0],gentleVelocity)
+  waitEndMove()
   movel(armPoint,needle[0],gentleVelocity)
-  
-  
-  //inject: move Xmm at Y speed  - wait  5  seconds until liquid empty. Message: injecting
+  waitEndMove()
+  popUpMsg("armpoint reached")
+
+  delay(otime)
+  waitEndMove()
+
+  popUpMsg("starting injection")
+  putln("starting injection")
+  //going inside 2.5 cm
   movel(appro(armPoint,{0,0,25.5,0,0,0}),needle[0],slowVelocity)
+  popUpMsg("injecting vaccine")
+  putln("injecting vaccine")
+  delay(otime)
   waitEndMove()
-  needle.otime=4
   
+  //going ouside arm
   
-  //waiting until injection is applied
-  delay(needle.otime)
-  
-  movel(armPoint,needle[0],gentleVelocity)
-  movej(appro(armPoint,{0,0,-25.5,0,0,0}),needle[0],gentleVelocity)
-  movej(closerArmPoint,needle[0],gentleVelocity)
-  //eject: going back to closerArmPoint
-  //movel(closerArmPoint,needle[0],gentleVelocity)
+  movel(appro(armPoint,{0,0,-25.5,0,0,0}),needle[0],slowVelocity)
+  popUpMsg("finished injection, do not move")
+  putln("finished injection, do not move")
+  delay(otime)
   waitEndMove()
+  
+  //untouching skin
+  movel(appro(armPoint,{0,0,-27.5,0,0,0}),needle[0],gentleVelocity)
+  waitEndMove()
+  movel(appro(armPoint,{0,0,-35.5,0,0,0}),needle[0],gentleVelocity)
+  waitEndMove()
+  popUpMsg("leaving arm")
+  putln("leaving arm")
+  
+  
+  movej(appro(homePoint,{0,0,25.5,0,0,0}),needle[0],mNomSpeed)
+  waitEndMove()
+  
+
   //move to closerTrashPoin
   movej(appro(closerTrashPoin,{0,0,-25.5,0,0,0}),needle[0],mNomSpeed)
   waitEndMove()
   movel(closerTrashPoin,needle[0],gentleVelocity)
   waitEndMove()
+  
+  
   //go to trashPoint
   movej(appro(trashPoint,{0,0,-25.5,0,0,0}),needle[0],mNomSpeed)
   waitEndMove()
   movel(trashPoint,needle[0],gentleVelocity)
   waitEndMove()
+  
+  
   //open gripper and wait until we command
   needle.gripper=true
   needle.otime=12
   delay(needle.otime)
   popUpMsg("Discarding needle")
   putln("Discarding needle")
+  
+  
   //closing gripper
   needle.gripper=false
   needle.otime=4
   delay(needle.otime)
   popUpMsg("Needle has been Discarded")
   putln("Needle has been Discarded")
-  //go to home
-  mNomSpeed.vel=30
-  movej(appro(homePoint,{0,0,-25.5,0,0,0}),needle[0],mNomSpeed)
-  waitEndMove()
-  //go to closer home
-  movel(homePoint,needle[0],mNomSpeed)
-  waitEndMove()
-  //HERE START THE SECOND PHASE FOR INJECTIONS
-  //go and pick needle
+  
+  
 end
 
       </code>
