@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<programList xmlns="ProgramNameSpace">
-  <program name="stop" public="false">
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<programList xmlns="ProgramNameSpace" >
+  <program name="stop" public="false" >
     <description />
-    <paramSection />
-    <localSection />
+    <paramSection/>
+    <localSection/>
     <source>
       <code>begin
 end

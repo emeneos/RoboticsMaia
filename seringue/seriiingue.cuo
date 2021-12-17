@@ -1,21 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CellUserOptions>
-  <Option Name="DataTreeView">
-    <Nodes>
-      <Node Path="needle" IsExpanded="true" />
-      <Node Path="needle\Controller1" IsExpanded="true" />
-    </Nodes>
-  </Option>
+  <Controller Name="Controller1">
+    <Application>Disk://needle/needle.pjx</Application>
+  </Controller>
+  <Option Name="DataTreeView" />
   <Option Name="CellExplorer">
     <Nodes>
-      <Node Path="needle" IsExpanded="true" />
-      <Node Path="needle\Controller1" IsExpanded="true" />
+      <Node Path="seriiingue" IsExpanded="true" />
+      <Node Path="seriiingue\Controller1" IsExpanded="true" />
+      <Node Path="seriiingue\Controller1\Disk:##needle#needle.pjx" IsExpanded="true" />
+      <Node Path="seriiingue\Controller1\Disk:##needle#needle.pjx\start" IsExpanded="true" />
     </Nodes>
   </Option>
   <Option Name="GeometryView">
     <Nodes>
-      <Node Path="needle" IsExpanded="true" />
-      <Node Path="needle\Controller1" IsExpanded="true" />
+      <Node Path="seriiingue" IsExpanded="true" />
+      <Node Path="seriiingue\Controller1" IsExpanded="true" />
+      <Node Path="seriiingue\Controller1\needle" IsExpanded="true" />
+      <Node Path="seriiingue\Controller1\needle\world[0]" IsExpanded="true" />
     </Nodes>
   </Option>
   <Option Name="Breakpoints">
