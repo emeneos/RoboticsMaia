@@ -309,3 +309,45 @@
 [12/17/21 16:04:19]: needle application stopped
 [12/17/21 16:05:35]: needle application started
 [12/17/21 16:06:29]: needle application stopped
+[12/17/21 16:07:44]: needle application started
+[12/17/21 16:08:29]: needle application stopped
+[12/17/21 16:22:40]: Saving controller context...
+[12/17/21 16:51:10]: needle application started
+[12/17/21 16:51:44]: MCP communication disconnected
+[12/17/21 16:51:44]: Arm power shutdown: working mode change.
+[12/17/21 16:51:44]: Arm power shutdown...
+[12/17/21 16:51:44]: Unknown event:motion generator desactivated
+[12/17/21 16:52:30]: -----------------------------------------------
+[12/17/21 16:52:30]: Logger started
+[12/17/21 16:52:35]: Unknown event:Communication established
+[12/17/21 16:52:35]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[12/17/21 16:52:35]: Cycle time set to 0.004s
+[12/17/21 16:52:35]: Simulation cycle time set to 0.1s
+[12/17/21 16:52:35]: Controller IP address could not be updated
+[12/17/21 16:52:35]: STARC : No STARC board detected on PCI.
+[12/17/21 16:52:35]: Mcp = TSimulated
+[12/17/21 16:52:35]: Power shutdown delay set to 0 s
+[12/17/21 16:52:35]: Internal error MODBUS-StartServer Channel=0 Status=65534
+[12/17/21 16:52:35]: Power hour count = 0:00:00
+[12/17/21 16:52:35]: Mac Address = 0a-00-27-00-00-14
+[12/17/21 16:52:35]: COM-PC: server created on all interfaces [5653]
+[12/17/21 16:52:35]: VAL3: s6.8 Feb  9 2010
+[12/17/21 16:52:35]: Option testMode: demo 
+[12/17/21 16:52:35]: Configuration Version: D24266415A 
+[12/17/21 16:52:35]: Machine Number: ? 
+[12/17/21 16:52:35]: Arm: tx60-S1-R3 floor
+[12/17/21 16:52:35]: Arm serial number: ? 
+[12/17/21 16:52:35]: EP: s6.8 Feb  3 2010
+[12/17/21 16:52:35]: SCA: s6.8 Feb  3 2010
+[12/17/21 16:52:35]: PLC: s6.8 Feb  3 2010
+[12/17/21 16:52:35]: New profile : default
+[12/17/21 16:52:35]: COM-PC: create session 127.0.0.1 on port 50026 id=#54273176
+[12/17/21 16:52:35]: Working mode:test.
+[12/17/21 16:52:36]: End of arm power shutdown phase.
+[12/17/21 16:52:50]: COM-PC: destroy session 127.0.0.1 on port 50026 id=#54273176
+[12/17/21 16:54:03]: needle application started
+[12/17/21 16:54:08]: Jog mode cannot be selected: first enable arm power.
+[12/17/21 16:54:11]: Settling arm power...
+[12/17/21 16:54:12]: Arm power settled.
+[12/17/21 16:54:12]: Unknown event:motion generator activated
+[12/17/21 16:54:23]: COM-PC: create session 127.0.0.1 on port 50038 id=#35022544
